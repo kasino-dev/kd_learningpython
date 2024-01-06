@@ -1,11 +1,8 @@
 def main():
-    album = 'With That Being Said'
-    artist = 'LeukoLeGoat'
-    release_year = '2024'
+    album, artist, release_year = 'With That Being Said', 'LeukoLeGoat', '2024'
 
-    print(album)
-    print(artist)
-    print(release_year)
+    print(f'{album} is an EP made by {artist}.'
+            f' It will be released {release_year}.')
 
 
 if __name__ == '__main__':
